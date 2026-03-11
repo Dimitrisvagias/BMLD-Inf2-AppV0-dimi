@@ -6,7 +6,7 @@ st.caption ("Gib eine Masse in Kilogramm ein oder benutze den Slider")
 Kilogramm = st.slider("Slider:", min_value=0.0, max_value=100.0, step=0.1)
 
 Kilogramm = st.number_input(" Kilogramm eingeben:", min_value=0.0, max_value=100.0, value=Kilogramm, step=0.1)
-
+dghdnh
 newton = Kilogramm * 9.80665
 
 st.divider ()
